@@ -2,7 +2,7 @@ let state = {
     todos : []
 }
 
-let a ={
+const a ={
     todos: [...state.todos,{
         title: 'learn',
         done: true
@@ -13,4 +13,8 @@ let a ={
     }
     ]
 }
-console.log(...state.todos);
+console.log(a.todos.map((todo, index) => { 
+        return todo[index]
+}))
+
+
