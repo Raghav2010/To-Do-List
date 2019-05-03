@@ -1,11 +1,15 @@
-.heading {
-  font-size: inherit
+.inputdiv {
+  margin-top: 3%;
+  margin-right: 25%;
+  margin-left: 21%;
 }
-
+.alldone {
+  margin-left: 69%;
+}
 
 .checkbox {
   display: inline;
-  width: auto;
+  
 }
 .done {
   text-decoration: line-through;
